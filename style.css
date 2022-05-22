@@ -39,3 +39,18 @@ body {
 .main-nav-items a {
     text-decoration: none;
 }
+
+.main-landing {
+    height: 500px;
+    background: rgb(187, 187, 218);
+    background: url("car-tesla.jpg");
+}
+
+.main-message {
+    margin: 0;
+    padding: 16px 8px;
+}
+
+.memberships {
+    display: flex;
+}
