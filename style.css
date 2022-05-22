@@ -1,0 +1,41 @@
+/** {
+    box-sizing: border-box;
+}*/
+
+body {
+    margin: 0;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background: coral;
+}
+
+.brand-name {
+    display: flex;
+    align-items: center;
+    padding-left: 8px
+}
+.brand-name-home {
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+}
+
+.main-nav {
+    display: flex;
+    padding-right: 8px
+}
+
+.main-nav-items {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    list-style: none;
+}
+
+.main-nav-items a {
+    text-decoration: none;
+}
