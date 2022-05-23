@@ -53,4 +53,18 @@ body {
 
 .memberships {
     display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 8px;
+}
+
+.membership-free,
+.membership-basic {
+    background: coral;
+    width: 25%;
+}
+
+.membership-executive {
+    background: aquamarine;
+    width: 50%;
 }
