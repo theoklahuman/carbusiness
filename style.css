@@ -9,7 +9,7 @@ body {
 .main-header {
     display: flex;
     justify-content: space-between;
-    background: coral;
+    background: rgb(0, 34, 23);
 }
 
 .brand-name {
@@ -38,6 +38,17 @@ body {
 
 .main-nav-items a {
     text-decoration: none;
+    color: white;
+}
+
+.main-nav-items a:hover {
+    border-bottom: 3px solid green;
+}
+
+.login-button {
+    background: green;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 .main-landing {
@@ -51,6 +62,11 @@ body {
     padding: 16px 8px;
 }
 
+#choose-plan-text {
+    text-align: center;
+    color: rgb(0, 34, 23)
+}
+
 .memberships {
     display: flex;
     justify-content: space-evenly;
@@ -58,13 +74,51 @@ body {
     gap: 8px;
 }
 
+.memberships ul {
+    list-style: none;
+    padding: 0;
+}
+
 .membership-free,
 .membership-basic {
-    background: coral;
-    width: 25%;
+    background: aquamarine;
+    width: 20%;
+    margin: 16px 8px;
+    height: 60%;
+    margin: 32px 0;
+    padding-bottom: 16px;
 }
 
 .membership-executive {
-    background: aquamarine;
+    background: rgb(0, 34, 23);
     width: 50%;
+    color: white;
+    box-shadow: 3px 3px 2px rgba(39, 34, 34, 0.479);
+    margin-bottom: 16px;
+}
+
+.membership-executive-alert {
+    background: white;
+    padding: 8px 16px;
+    margin: 32px 16px;
+    color: rgb(0, 34, 23);
+    box-shadow: 3px 3px 2px rgba(255, 127, 80, 0.507);
+    border-radius: 8px;
+}
+
+.membership-executive-button {
+    margin-bottom: 16px;
+    background: green;
+    height: 50px;
+    width: 120px;
+    border: 0;
+    font-size: large;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.membership-executive-button:hover {
+    background: white;
+    color: green;
 }
