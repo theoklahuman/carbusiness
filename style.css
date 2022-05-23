@@ -122,3 +122,21 @@ body {
     background: white;
     color: green;
 }
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(21, 131, 96);
+    padding: 16px 0px;
+}
+
+.about-us-text {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    font: 16px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 16px 32px;
+}
