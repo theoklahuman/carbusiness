@@ -1,9 +1,5 @@
-/** {
+* {
     box-sizing: border-box;
-}*/
-
-body {
-    margin: 0;
 }
 
 .main-header {
@@ -55,6 +51,8 @@ body {
     height: 500px;
     background: rgb(187, 187, 218);
     background: url("car-tesla.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main-message {
