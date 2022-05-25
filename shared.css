@@ -6,6 +6,10 @@ body {
     display: flex;
     justify-content: space-between;
     background: rgb(0, 34, 23);
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
 }
 
 .brand-name {
@@ -22,7 +26,7 @@ body {
 
 .main-nav {
     display: flex;
-    padding-right: 8px
+    padding-right: 8px;
 }
 
 .main-nav-items {
@@ -51,6 +55,10 @@ body {
     display: flex;
     justify-content: center;
     background: black;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
 }
 
 .footer-main ul {
