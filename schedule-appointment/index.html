@@ -36,9 +36,34 @@
         </nav>
     </header>
     <main>
-        <h1 class="content-placeholder">THIS IS FOR SCHEDULE APPOINTMENT!!! I'm too lazy to put anything here but I will update it as
-            soon as I can. don't judge me!!!
-        </h1>
+        <h1>Please fill form below to book an appointment: </h1>
+        <form action="#" method="post">
+            <label for="customer-name">Full Name: </label>
+            <input type="text" id="customer-name" name="customer-name" placeholder="John Doe">
+            <br>
+            <label for="customer-address">Address: </label>
+            <input type="text" id="customer-address" name="customer-address">
+            <br>
+            <label for="appointment-date">Choose Date: </label>
+            <input type="date" id="appointment-date" name="appointment-date">
+            <br>
+            <label for="appointment-time-label">Choose Time: </label>
+            <select name="appointment-time" id="appointment-time">
+                <option value="none" selected>Please Select</option>
+                <option value="morning">9:00am</option>
+                <option value="afternoon">1:00pm</option>
+                <option value="evening">4:00pm</option>
+                <option value="night">9:00pm</option>
+            </select>
+            <br>
+            <label for="customer-phone-number">Phone Number: </label>
+            <input type="text" id="customer-phone-number" name="customer-phone-number">
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="10">Additional information:</textarea>
+            <br>
+            <button type="submit">Confirm Appointment</button>
+            <button type="reset">Clear All</button>
+        </form>
     </main>
     <footer class="footer-main">
         <nav>

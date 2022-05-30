@@ -1,5 +1,22 @@
-.content-placeholder {
+/* .content-placeholder {
     height: 570px;
-    background: blue;
+    background: linear-gradient(blue, green, yellow);
     margin: 0;
+    margin-top: 5%;
+} */
+
+main {
+    margin-top: 5%;
+}
+
+#customer {
+    background-color: blue;
+}
+
+input {
+    margin: 8px 5px;
+}
+textarea {
+    display: block;
+    margin: 8px 0;
 }
