@@ -1,22 +1,24 @@
-/* .content-placeholder {
-    height: 570px;
-    background: linear-gradient(blue, green, yellow);
-    margin: 0;
-    margin-top: 5%;
-} */
-
 main {
     margin-top: 5%;
 }
 
-#customer {
-    background-color: blue;
+h1 {
+    margin: 8px;
 }
 
 input {
     margin: 8px 5px;
 }
+
 textarea {
     display: block;
-    margin: 8px 0;
+    background: #bebdbd1a;
+}
+
+.button-div {
+    margin: 8px 16px;
+}
+
+.comment-div {
+    margin: 16px 2px;
 }
