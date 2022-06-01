@@ -41,8 +41,8 @@
             <fieldset>
                 <legend>Customer Information</legend>
                     <div class="full-name-div">
-                        <label for="customer-name">Full Name: </label>
-                        <input type="text" id="customer-name" name="customer-name" placeholder="John Doe">
+                        <label for="customer-name">*Full Name: </label>
+                        <input type="text" id="customer-name" name="customer-name" placeholder="John Doe" required>
                     </div>
                     <div class="customer-address-div">
                         <label for="customer-address">Street Address: </label>
@@ -106,23 +106,23 @@
                     </select>
                     <div class="customer-zipcode">
                         <label for="customer-zip">Zip Code: </label>
-                            <input type="tel" name="zip-code" id="customer-zip">
+                            <input type="tel" name="zip-code" id="customer-zip" maxlength="5">
                     </div>
                     <div class="customer-phone-number-div">
-                        <label for="customer-phone-number">Phone Number: </label>
-                        <input type="tel" id="customer-phone-number" name="customer-phone-number">
+                        <label for="customer-phone-number">*Phone Number: </label>
+                        <input type="tel" id="customer-phone-number" name="customer-phone-number" required minlength="7" maxlength="10">
                     </div>                    
                 
             </fieldset>
             <fieldset>
                 <legend>Appointment Information</legend>
                 <div class="appointment-date-div">
-                    <label for="appointment-date">Choose Date: </label>
-                    <input type="date" id="appointment-date" name="appointment-date">
+                    <label for="appointment-date">*Choose Date: </label>
+                    <input type="date" id="appointment-date" name="appointment-date" required>
                 </div>
                 <div class="appointment-time-div">
-                    <label for="appointment-time-label">Choose Time: </label>
-                    <select name="appointment-time" id="appointment-time">
+                    <label for="appointment-time-label">*Choose Time: </label>
+                    <select name="appointment-time" id="appointment-time" required>
                         <option value="none" selected>Please Select</option>
                         <option value="morning">9:00am</option>
                         <option value="afternoon">1:00pm</option>
