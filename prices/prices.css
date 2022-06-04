@@ -1,5 +1,49 @@
-.content-placeholder {
-    height: 570px;
-    background: coral;
-    margin: 0;
+main {
+    margin-top: 5%;
+}
+
+.prices-header {
+    text-align: center;
+}
+
+thead th {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid green;
+    width: 100%;
+}
+
+thead {
+    text-align: center;
+}
+
+.prices-column-one {
+    text-align: center;
+    background: rgba(240, 148, 114, 0.144);
+}
+
+.column-two, .free-trial-price {
+    background: #00221746;
+}
+
+.free-trial-price {
+    padding: 16px;
+    text-align: center;
+}
+
+
+td,th {
+    border: 2px solid green;
+    text-align: start;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    padding: 10px;
 }
