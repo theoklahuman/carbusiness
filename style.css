@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Zen+Loop&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -122,6 +124,11 @@
     color: green;
 }
 
+.membership-executive-button:active {
+    background: coral;
+    color: gray;
+}
+
 #about-us {
     display: flex;
     flex-direction: column;
@@ -139,4 +146,6 @@
     border-top: 3px solid white;
     border-bottom: 3px solid white;
     padding: 16px 32px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.3rem;
 }
