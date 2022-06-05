@@ -1,5 +1,12 @@
-.content-placeholder {
+/* .content-placeholder {
     height: 570px;
-    background: magenta;
-    margin: 0;
+    background: gray;
+} */
+
+main {
+    margin-top: 5%;
+}
+
+body {
+    background: coral;
 }

@@ -1,5 +1,12 @@
-.content-placeholder {
+/* .content-placeholder {
     height: 570px;
     background: gray;
-    margin: 0;
+} */
+
+main {
+    margin-top: 5%;
+}
+
+body {
+    background: #ff00ff93;
 }
