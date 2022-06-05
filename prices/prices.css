@@ -12,17 +12,20 @@ thead th {
 
 table {
     border-collapse: collapse;
-    border: 2px solid green;
+    border: 2px solid black;
     width: 100%;
 }
 
 thead {
     text-align: center;
+    background: #002217;
+    color: white;
 }
 
 .prices-column-one {
     text-align: center;
-    background: rgba(240, 148, 114, 0.144);
+    background: green;
+    border: 2px solid black;
 }
 
 .column-two, .free-trial-price {
@@ -36,7 +39,7 @@ thead {
 
 
 td,th {
-    border: 2px solid green;
+    border: 2px solid black;
     text-align: start;
 }
 
@@ -44,6 +47,18 @@ td {
     text-align: center;
 }
 
+.service-not-included {
+    background: red;
+}
+
+.service-included {
+    background: green;
+}
+
 caption {
     padding: 10px;
+}
+
+tr .price {
+    background: magenta;
 }
