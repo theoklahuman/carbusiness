@@ -4,9 +4,19 @@
 } */
 
 main {
-    margin-top: 5%;
+    margin: 5% 0;
+    height: 600px;
 }
 
-body {
-    background: #ff00ff93;
+
+.container {
+    display: grid;
+    grid-template: 25% 25% 25% 25% / 20% 20% 20% 20% 20%;
+    height: inherit;
+    gap: 5px;
+}
+
+.pictures {
+    border: 1px solid green;
+    padding: 27%;
 }
