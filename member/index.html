@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Mobile Car Detailing</title>
+        <title>Member Login</title>
         <link rel="stylesheet" href="../shared.css">
-        <link rel="stylesheet" href="diy.css">
+        <link rel="stylesheet" href="member.css">
         <script src="script.js" defer></script>
     </head>
 <body>
@@ -30,16 +30,35 @@
                     <a href="../index.html#about-us">About Us</a>
                 </li>
                 <li class="main-nav-item">
-                    <a href="../member/index.html" class="login-button">Member Login</a>
+                    <a href="#" class="login-button">Member Login</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1 class="content-placeholder">This section will contain DIY tutorials and links
-            to resources to show you how to clean your cars easily.
-            Coming Soon!!!
-        </h1>
+    <main class="main-container">
+        <form action="#" method="post">
+                <fieldset>
+                    <legend>Member Login</legend>
+                        <div class="username-container">
+                            <label for="username">*Username: </label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="password-container">
+                            <label for="password">*Password: </label>
+                            <input class="password" type="password" id="password" name="password" required>
+                        </div>
+                        <div class="buttons-container">
+                            <button type="button">Forgot Password?</button>
+                            <button type="submit" class="submit-button">Submit</button>
+                        </div>
+                            <div class="no-account-container">
+                                <h5>Don't have an account? </h5>
+                                <a href="#" class="sign-up">Sign up</a>
+                            </div>
+                
+                    
+                </fieldset>
+        </form>
     </main>
     <footer class="footer-main">
         <nav>

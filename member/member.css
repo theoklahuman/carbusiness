@@ -1,0 +1,46 @@
+body {
+    background: #008000ec;
+    position: relative;
+}
+
+.main-container {
+    position: fixed;
+    left: 25%;
+    top: 25%;
+    background: #008000ef;
+    border-radius: 50px;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+
+fieldset {
+    border: none;
+    margin: 15% 27%;
+}
+
+.password {
+    margin: 8px 3px;
+}
+
+.buttons-container {
+    margin: 2% 15%;
+}
+
+.submit-button {
+    background: black;
+    color: white;
+}
+
+.no-account-container {
+    display: flex;
+    align-items: center;
+    padding: 15%;
+}
+
+.sign-up {
+    display: block;
+    margin: 0 3%;
+    text-decoration: none;
+
+}
