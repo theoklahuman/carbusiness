@@ -4,51 +4,6 @@
     box-sizing: border-box;
 }
 
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    background: rgb(0, 34, 23);
-}
-
-.brand-name {
-    display: flex;
-    align-items: center;
-    padding-left: 8px
-}
-.brand-name-home {
-    font-weight: bold;
-    text-decoration: none;
-    color: green;
-    font-size: 25px;
-}
-
-.main-nav {
-    display: flex;
-    padding-right: 8px
-}
-
-.main-nav-items {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    list-style: none;
-}
-
-.main-nav-items a {
-    text-decoration: none;
-    color: white;
-}
-
-.main-nav-items a:hover {
-    border-bottom: 3px solid green;
-}
-
-.login-button {
-    background: green;
-    padding: 8px;
-    border-radius: 5px;
-}
-
 .main-landing {
     height: 500px;
     background: rgb(187, 187, 218);
