@@ -149,3 +149,40 @@
     font-family: 'Shadows Into Light', cursive;
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 780px) {
+
+    .main-header {
+      flex-direction: column;
+      position: static;
+    }
+  
+    .main-nav-items {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .main-landing {
+      height: 200px;
+    }
+
+    .membership-free,
+    .membership-basic,
+    .membership-executive {
+    width: 100%;
+  }
+
+  .memberships {
+    flex-direction: column;
+  }
+  
+    .footer-main {
+      position: static;
+    }
+  
+    .about-us-text {
+        width: 100%;
+    }
+  
+  
+  }
