@@ -71,3 +71,21 @@ body {
     text-decoration: none;
     color: white
 }
+
+@media screen and (max-width: 780px) {
+
+    .main-header {
+      flex-direction: column;
+      position: static;
+    }
+  
+    .main-nav-items {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .footer-main {
+      position: static;
+    }
+
+}
