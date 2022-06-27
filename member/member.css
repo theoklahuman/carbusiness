@@ -60,4 +60,8 @@ fieldset {
         width: 100%;
         margin: 0 auto;
     }
+
+    .no-account-container {
+        display: block;
+    }
 }
