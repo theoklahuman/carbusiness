@@ -10,3 +10,9 @@ main {
 body {
     background: coral;
 }
+
+@media screen and (max-width: 780px) {
+    .footer-main {
+        margin-top: 70%;
+    }    
+}
