@@ -24,6 +24,15 @@ body {
     font-size: 25px;
 }
 
+.hamburger-container {
+    align-self: center;
+}
+
+.hamburger-button,
+.close-hamburger {
+    display: none;
+}
+
 .main-nav {
     display: flex;
     padding-right: 8px;
@@ -75,8 +84,38 @@ body {
 @media screen and (max-width: 780px) {
 
     .main-header {
+      display: flex;
       flex-direction: column;
       position: static;
+    }
+
+    .hamburger-container {
+        display: flex;
+        width: 100%;
+    }
+
+
+    .brand-name-home {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .hamburger-button {
+        display: block;
+        margin-left: auto;
+        margin-right: 3%;
+        background: green;
+    }
+
+    .close-hamburger {
+        display: none;
+        margin-left: auto;
+        margin-right: 3%;
+        background: green;
+    }
+
+    .main-nav {
+        display: none;
     }
   
     .main-nav-items {
