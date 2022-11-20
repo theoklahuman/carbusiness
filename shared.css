@@ -59,14 +59,17 @@ body {
 
 .main-nav {
     display: none;
-    padding-right: 8px;
+    padding-right: 0.5rem;
 }
+
 
 .main-nav-items {
     display: flex;
     gap: 16px;
     align-items: center;
     list-style: none;
+    width: 100%;
+    flex-direction: column;
 }
 
 .main-nav-items a {
