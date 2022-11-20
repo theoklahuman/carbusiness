@@ -4,9 +4,10 @@ body {
 
 .main-header {
     display: flex;
+    flex-direction: column;
+    position: fixed;
     justify-content: space-between;
     background: #002217;
-    position: fixed;
     width: 100%;
     box-sizing: border-box;
     top: 0;
@@ -22,19 +23,42 @@ body {
     text-decoration: none;
     color: green;
     font-size: 25px;
+    display: inline-block;
+    width: 50%;
 }
 
 .hamburger-container {
     align-self: center;
+    display: flex;
+    width: 100%;
 }
 
-.hamburger-button,
+
+.hamburger-button {
+    margin-left: auto;
+    width: 2rem;
+}
+
 .close-hamburger {
     display: none;
+    margin-left: auto;
 }
 
+.hamburger-button:hover {
+    background-color: green;
+
+}
+
+.hamburger-lines {
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+}
+
+
 .main-nav {
-    display: flex;
+    display: none;
     padding-right: 8px;
 }
 
@@ -79,54 +103,4 @@ body {
 .footer-main-link {
     text-decoration: none;
     color: white
-}
-
-@media screen and (max-width: 780px) {
-
-    .main-header {
-      display: flex;
-      flex-direction: column;
-      position: static;
-    }
-
-    .hamburger-container {
-        display: flex;
-        width: 100%;
-    }
-
-
-    .brand-name-home {
-        display: inline-block;
-        width: 50%;
-    }
-
-    .hamburger-button {
-        display: block;
-        margin-left: auto;
-        margin-right: 3%;
-        background: green;
-        border: none;
-    }
-
-    .close-hamburger {
-        display: none;
-        margin-left: auto;
-        margin-right: 3%;
-        background: green;
-        border: none;
-    }
-
-    .main-nav {
-        display: none;
-    }
-  
-    .main-nav-items {
-      width: 100%;
-      flex-direction: column;
-    }
-  
-    .footer-main {
-      position: static;
-    }
-
 }
