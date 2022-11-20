@@ -1,24 +1,58 @@
 main {
-    margin-top: 5%;
+    margin-top: 2rem;
 }
 
-h1 {
-    margin: 8px;
+.appointment-form__heading {
+    font-size: 1rem;
+}
+
+fieldset {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-weight: 400;
+}
+
+#appointment-date {
+    box-sizing: border-box;
+}
+
+
+label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
 }
 
 input {
-    margin: 8px 5px;
+    display: block;
+    width: 100%;
+}
+
+#customer-state,
+#appointment-time, 
+#appointment-date {
+    padding: 0.15rem;
+    width: 100%;
+}
+
+.fieldset-for__textarea {
+    padding: 0.25rem;
+    border: none;
 }
 
 textarea {
-    display: block;
     background: #bebdbd1a;
+    width: 99%;
 }
 
-.button-div {
+/* .button-div {
     margin: 8px 16px;
 }
 
 .comment-div {
     margin: 16px 2px;
-}
+} */
